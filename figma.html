@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .mainlower {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 96px;
+    gap: 64px;
+    margin-right: 89.5px;
+    margin-left: 89.5px;
+}
+.mainnumber {
+    display: flex;
+    flex-wrap: wrap;    
+}
+.lowerdiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+.lowerdiv1 {
+    margin-left: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #667085;
+}
+.lowerdiv2 {
+    margin-right: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #667085;
+}
+.conteinermain {
+padding: 12px;
+align-self: stretch;
+justify-content: center;
+align-items: center;
+margin-right: 2px;
+border-radius: 8px;
+}
+.colorconteinermain {
+    background-color: #F9F5FF;
+}
+.conteiner {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+.colorconteiner {
+    color: #7F56D9;
+}
+.colorconteiner1 {
+    color: #667085;
+}
+.maintop {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 96px;
+    align-items: center;
+    flex-direction: column;
+
+}
+.divtop1 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 12px;
+    align-self: stretch;
+    color: #7F56D9;
+}
+.divtop2 {
+    text-align: center;
+    align-self: stretch;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+    margin-bottom: 24px;
+    color: #101828;
+}
+.div3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.divtop3 {
+    overflow-wrap: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #667085;
+    margin-bottom: 40px;
+    width: 600px;
+}
+.text3 {
+    width: 600px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.button1 {
+    border-radius: 8px; 
+    display: flex;
+    padding: 12px 14px 12px 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    width: 327.5px;
+    height: 21.5px;
+    border: 1px solid;
+    color: #D0D5DD;
+    margin-bottom: 8px;
+}
+.button2 {
+    border-radius: 8px;
+    background-color: #7F56D9;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 78px;
+    height: 24px;
+    margin-left: 16px;
+}
+.text1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085;
+}
+.text2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.divcenter {
+    width: 494px;
+    height: 76px;
+    display: flex;
+}
+.textundbottom {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #667085;
+}
+.maincenter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 96px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 0px 32px;
+}
+.maincenter2 {
+    display: flex;
+    width: 1280px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.divtop {
+    width: 960px;
+}
+.maindiv {
+    width: 1440px;
+}
+.divcentertexttop {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: #101828;
+    margin-bottom: 32px;
+}
+.mainconteiner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.conteiner {
+    width: 592px;
+    height: 432px;
+    gap: 32px
+
+}
+.centertext {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: #6941C6;
+}
+.centertext1 {
+    margin-bottom: 12px;
+}
+.centertext3_3 {
+    word-wrap:break-word;
+    width: 530px;
+    margin-bottom: 24px;
+}
+.centertext3_1 {
+    word-wrap:break-word;
+    width: 310px;
+    margin-bottom: 24px;
+}
+.centertext3_4 {
+    word-wrap:break-word;
+    width: 330px;
+    margin-bottom: 24px;
+}
+.centertext3_2 {
+    width: 248px;
+}
+.centertext2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: #101828;
+    width: 552px;
+}
+.centertext2ab {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: #101828;
+    width: 344px;
+}
+.centertext2a {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: #101828;
+    width: 344px;
+    margin-right: 16px;
+}
+.centertext2_2 {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #101828;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.centertext3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085;
+}
+.centerbutton {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+.colorcenterbutton {
+    border-radius: 16px;
+    display: flex;
+    padding: 2px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.colorcenterbutton1 {
+    color: #6941C6;
+    background-color: #F9F5FF;
+    width: 47px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton2 {
+    color: #3538CD;
+    background-color: #EEF4FF;
+    width: 63px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton3 {
+    color: #C11574;
+    background-color: #FDF2FA;
+    width: 86px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton4 {
+    color: #026AA2;
+    background-color: #F0F9FF;
+    width: 47px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton5 {
+    color: #027A48;
+    background-color: #ECFDF3;
+    width: 47px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton6 {
+    color: #C11574;
+    background-color: #FDF2FA;
+    width: 63px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton7 {
+    color: #6941C6;
+    background-color: #F9F5FF;
+    width: 75px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton8 {
+    color: #363F72;
+    background-color: #F8F9FC;
+    width: 68px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton9 {
+    color: #026AA2;
+    background-color: #F0F9FF;
+    width: 53px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton10 {
+    color: #C4320A;
+    background-color: #FFF6ED;
+    width: 83px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton11 {
+    color: #027A48;
+    background-color: #ECFDF3;
+    width: 130px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton12 {
+    color: #C11574;
+    background-color: #FDF2FA;
+    width: 36px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton13 {
+    color: #C01048;
+    background-color: #FFF1F3;
+    width: 34px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton14 {
+    color: #6941C6;
+    background-color: #F9F5FF;
+    width: 53px;
+    height: 20px;
+    margin-right: 8px;
+}
+.colorcenterbutton15 {
+    color: #363F72;
+    background-color: #F8F9FC;
+    width: 116px;
+    height: 20px;
+    margin-right: 8px;
+}
+.picture {
+    display: flex;
+}
+.png0 {
+    width: 384px;
+}
+.png0_0 {
+    margin-right: 32px;
+}
+.png {
+    width: 592px;
+}
+.png2 {
+    margin-bottom: 32px;
+}
+.png2_2 {
+    margin-right: 24px;
+}
+.main {
+    width: 1200px;
+}
+.distance {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 16px;
+}
+.distance2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16px;
+}
+.conteinerlower {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.up {
+    margin-top: 75px;
+}
+.upcenter {
+    margin-bottom: 48px;
+}
+.galochka {
+    width: 24px;
+    height: 24px;
+}
+    </style>
+</head>
+<body>
+<div class="maindiv">
+    <div class="maintop">
+    <div class="divtop">
+    <div class="divtop1">Our blog</div>
+    <div class="divtop2"> Stories and interviews</div>
+    <div class="divtop3">Subscribe to learn about new product features, the latest in technology, solutions, and updates.</div>
+    </div>
+    <div class="divcenter">
+    <div>
+        <div class="button1"><div class="text1">Enter your email</div></div>
+        <div class="textundbottom">We care about your data in our privacy policy</div>
+    </div>
+        <div class="button2"><div class="text2">Subscribe</div></div>     
+    </div>
+    
+
+<div class="maincenter">
+<div class="maincenter2 up">
+<div class="divcentertexttop">Recent blog posts</div>
+<div class="maincontainer">
+    <div class="picture main">
+
+
+        <div class="picture distance">
+        <div class="mainconteiner1">
+        <div class="png png2">
+            <img src="Image.png" alt="picture1">
+        </div>
+        <div>
+        <div class="centertext centertext1">Olivia Rhye • 20 Jan 2022</div>
+        <div class="conteinerlower  centertext1">
+        <div class="centertext2">UX review presentations</div>
+        <div class="galochka"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></div>
+        </div>
+        <div class="centertext3 centertext3_3">How do you create compelling presentations that wow your colleagues and impress your managers?</div>
+        </div>
+        <div class="picture">
+            <div class="centerbutton colorcenterbutton colorcenterbutton1">Design</div>
+            <div class="centerbutton colorcenterbutton colorcenterbutton2">Research</div>
+            <div class="centerbutton colorcenterbutton colorcenterbutton3">Presentation</div>
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class="distance2">
+            <div class="mainconteiner2 picture">
+                <div class="png2 png2_2"><img src="Image (1).png" alt="picture2"></div>
+                <div>
+                <div>
+                    <div class="centertext">Phoenix Baker • 19 Jan 2022</div>
+                    <div class="centertext2_2">Migrating to Linear 101</div>
+                    <div class="centertext3 centertext3_3 centertext3_2">Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...</div>
+                </div>
+                    <div class="picture">
+                        <div class="centerbutton colorcenterbutton colorcenterbutton4">Design</div>
+                        <div class="centerbutton colorcenterbutton colorcenterbutton6">Research</div>
+                    </div>
+                </div>
+            </div>
+            <div class="maincontainer3 picture">
+                <div class="png2 png2_2"><img src="Image (2).png" alt="picture3"></div>
+                <div>
+                <div class="centertext">Lana Steiner • 18 Jan 2022</div>
+                <div class="centertext2_2">Building your API Stack</div>
+                <div class="centertext3 centertext3_3 centertext3_2">The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...</div>
+                <div class="picture">
+                    <div class="centerbutton colorcenterbutton colorcenterbutton5">Design</div>
+                    <div class="centerbutton colorcenterbutton colorcenterbutton6">Research</div>
+                </div>
+                </div>
+                </div>
+        </div>
+        </div>
+        </div>
+</div>
+</div>
+    </div>
+
+    <div>
+        <div class="maincenter">
+        <div class="maincenter2 picture">
+        <div class="divcentertexttop">All blog posts</div>
+        <div class="maincontainer picture">
+            <div class="upcenter">
+                <div class="png0 png0_0"><img src="Image (3).png" alt="picture4"></div>
+                <div>
+                <div class="centertext centertext1">Alec Whitten • 17 Jan 2022</div>
+                <div class="conteinerlower centertext1">
+                    <div class="centertext2ab">Bill Walsh leadership lessons</div>
+                    <div class="galochka">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="centertext3 centertext3_1">Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?</div>
+                <div class="picture">
+                    <div class="centerbutton colorcenterbutton colorcenterbutton7">Leadership</div>
+                    <div class="centerbutton colorcenterbutton colorcenterbutton8">Management</div>
+                </div>
+              </div>
+            </div>
+            <div>
+                <div class="png0 png0_0"><img src="Image (4).png" alt="picture5"></div>
+                <div>
+                    <div class="centertext centertext1">Demi WIlkinson • 16 Jan 2022</div>
+                    <div class="conteinerlower centertext1">
+                        <div class="centertext2ab ">PM mental models</div>
+                        <div class="galochka">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17L17 7M17 7H7M17 7V17" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                    </div>
+                    <div class="centertext3 centertext3_4">Mental models are simple expressions of complex processes or relationships.</div>
+                    <div class="picture">
+                        <div class="centerbutton colorcenterbutton colorcenterbutton9">Product</div>
+                        <div class="centerbutton colorcenterbutton colorcenterbutton2">Research</div>
+                        <div class="centerbutton colorcenterbutton colorcenterbutton10">Frameworks</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="png0 png0_0"><img src="Image (5).png" alt="picture6"></div>
+                <div>
+                    <div class="centertext centertext1">Candice Wu • 15 Jan 2022</div>
+                    <div class="conteinerlower centertext1">
+                    <div class="centertext2ab">What is Wireframing?</div>
+                    <div class="galochka">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div></div>
+                    <div class="centertext3 centertext3_4">Introduction to Wireframing and its Principles. Learn from the best in the industry.</div>
+                    <div class="picture">
+                        <div class="centerbutton colorcenterbutton colorcenterbutton1">Design</div>
+                        <div class="centerbutton colorcenterbutton colorcenterbutton2">Research</div>
+                    </div>
+                </div>
+            </div></div>
+            <div class="maincontainer picture">
+            <div>
+                <div class="png0 png0_0"><img src="Image (6).png" alt="picture7"></div>
+                <div>
+                    <div class="centertext centertext1">Natali Craig • 14 Jan 2022</div>
+                    <div class="conteinerlower centertext1">
+                        <div class="centertext2a">How collaboration makes us better designers</div>
+                        <div class="galochka">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17L17 7M17 7H7M17 7V17" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                    </div>
+                    <div  class="centertext3 centertext3_4">Collaboration can make our teams stronger, and our individual designs better.</div>
+                    <div class="picture">
+                        <div class="centerbutton colorcenterbutton colorcenterbutton1">Design</div>
+                        <div class="centerbutton colorcenterbutton colorcenterbutton2">Research</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="png0 png0_0"><img src="Image (7).png" alt="picture8"></div>
+                <div class="png0">
+                    <div class="centertext centertext1">Drew Cano • 13 Jan 2022</div>
+                    <div class="conteinerlower centertext1">
+                        <div class="centertext2a ">Our top 10 Javascript frameworks to use</div>
+                        <div class="galochka">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17L17 7M17 7H7M17 7V17" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                    </div>
+                    <div class="centertext3 centertext3_4">JavaScript frameworks make development easy with extensive features and functionalities.</div>
+                    <div class="picture">
+                        <div class="centerbutton colorcenterbutton colorcenterbutton11">Software Development</div>
+                        <div class="centerbutton colorcenterbutton colorcenterbutton12">Tools</div>
+                        <div class="centerbutton colorcenterbutton colorcenterbutton13">SaaS</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="png0 png0_0"><img src="Image (8).png" alt="picture9"></div>
+                <div class="png0">
+                    <div class="centertext centertext1">Orlando Diggs • 12 Jan 2022</div>
+                    <div class="conteinerlower centertext1">
+                        <div class="centertext2a ">Podcast: Creating a better CX Community</div>
+                        <div class="galochka">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17L17 7M17 7H7M17 7V17" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                    </div>
+                    <div class="centertext3 centertext3_4">Starting a community doesn’t need to be complicated, but how do you get started?</div>
+                    <div class="picture">
+                        <div class="centerbutton colorcenterbutton colorcenterbutton14">Podcasts</div>
+                        <div class="centerbutton colorcenterbutton colorcenterbutton15">Customer Success</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+    </div></div>
+        </div>
+<div class="mainlower">
+        <div class="lowerdiv"><div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                <path d="M12.8333 7.49996H1.16663M1.16663 7.49996L6.99996 13.3333M1.16663 7.49996L6.99996 1.66663" stroke="#667085" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="lowerdiv1">Previous</div></div>
+        <div class="mainnumber">
+            <div class="conteinermain colorconteinermain"><div class="colorconteiner">1</div></div>
+            <div class="conteinermain"><div class="colorconteiner1">2</div></div>
+            <div class="conteinermain"><div class="colorconteiner1">3</div></div>
+            <div class="conteinermain"><div class="colorconteiner1">...</div></div>
+            <div class="conteinermain"><div class="colorconteiner1">8</div></div>
+            <div class="conteinermain"><div class="colorconteiner1">9</div></div>
+            <div class="conteinermain"><div class="colorconteiner1">10</div></div>
+        </div>
+        <div class="lowerdiv"><div class="lowerdiv2">Next</div>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <path d="M4.16675 10.5H15.8334M15.8334 10.5L10.0001 4.66663M15.8334 10.5L10.0001 16.3333" stroke="#667085" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div></div>
+</div>
+</div>
+</body>
+</html>
